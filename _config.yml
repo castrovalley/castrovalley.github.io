@@ -1,0 +1,31 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Castro Valley
+email: castrovalley@github.io
+description: >
+  An open-source community website
+logo: "/assets/images/aerial.png"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://castrovalley.github.io" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'Castro Valley Community Site'
+bio: >
+ Castro Valley is a census-designated place in Alameda County, California, United States. The population was 61,388 at the 2010 census.
+author_image: "/assets/images/aerial.png"
+github_username:  castrovalley
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
